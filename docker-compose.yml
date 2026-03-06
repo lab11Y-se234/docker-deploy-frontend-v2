@@ -4,4 +4,7 @@ services:
     pull_policy: always
     ports:
       - "8083:8080"
+    environment:
+      - VITE_GRAPHQL_URI=http://13.222.3.187:8082/graphql
+      - VITE_SERVER_URI=http://13.222.3.187:8082
     restart: unless-stopped
