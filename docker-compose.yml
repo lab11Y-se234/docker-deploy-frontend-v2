@@ -3,5 +3,5 @@ services:
     image: yhtoo/234-deploylab-frontend:latest
     pull_policy: always
     ports:
-      - "8083:80"
+      - "8083:8080"
     restart: unless-stopped
